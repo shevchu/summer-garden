@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.header > a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000000;
+}
+
+.header > .special {
+    color: #D1A954;
+    font-weight: bold;
+}
