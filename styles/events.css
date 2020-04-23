@@ -1,0 +1,48 @@
+.events {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 60px;
+    color: #ffffff;
+    padding: 0 30px;
+}
+
+.events h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+} 
+
+.events:first-child {
+    margin-left: 0; 
+}
+
+.event {
+    min-width: 580px;
+    min-height: 160px;
+    background-color: rgba(209, 169, 84, 0.9);
+    font-size: 14px;
+    margin-top: 490px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    outline: 1px solid rgba(255, 255, 255, 0.5);
+    outline-offset: -20px;
+}
+
+.event-type {
+    max-width: 580px;
+    max-height: 650px;
+}
+
+.event-type_corporatives {
+    background-image: url("../img/corporatives.png");
+}
+
+.event-type_weddings {
+    background-image: url("../img/weddings.png");
+}
+
+.event-type_evenings {
+    background-image: url("../img/evening\ events.png");
+}

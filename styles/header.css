@@ -9,6 +9,17 @@
     text-transform: uppercase;
     text-decoration: none;
     color: #000000;
+    padding: 7px 9px;
+    border: 1px solid transparent;
+}
+
+.header > a:active {
+    color: #D1A954;
+    border-color: #D1A954;
+}
+
+.header > a:hover {
+    color: #D1A954;
 }
 
 .header > .special {
