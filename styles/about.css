@@ -1,0 +1,17 @@
+.about h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+} 
+
+.about {
+    margin-top: 190px;
+}
+
+.logo {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 9px;
+}
