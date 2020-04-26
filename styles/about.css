@@ -18,8 +18,14 @@
     margin-bottom: 60px;
 }
 
+.caption {
+    margin-top: 10px;
+}
+
+
 .video {
     background-image: url("../img/movie.png");
+    background-position: center;
     width: 920px;
     height: 480px;
     display: flex;
@@ -48,4 +54,13 @@
 .description h2 {
     font-size: 16px;
     text-transform: uppercase;
+}
+
+.inline {
+    display: flex;
+    align-items: baseline;
+}
+
+.inline > h2 {
+    margin-left: 25px ;
 }
