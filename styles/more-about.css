@@ -1,0 +1,35 @@
+.more-about {
+    background-image: url("../img/photoline.png");
+    min-height: 409px;
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.more-about span {
+    color: #FFFFFF;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.buttons {
+    margin-top: 70px;
+}
+.button {
+    background-color: #FFFFFF;
+    font-size: 16px;
+    text-transform: uppercase;
+    height: 64px;
+    border: 0;
+}
+
+.button__small {
+    width: 255px;
+}
+
+.button__big {
+    width: 320px;
+    margin-left: 90px;
+}
