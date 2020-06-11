@@ -1,0 +1,91 @@
+.feedback h1 {
+    font-size: 36px;
+    text-transform: uppercase;
+    margin-top: 120px;
+}
+
+.feedback p{
+    font-size: 14px;
+    color:  #616161;
+    margin-top: 40px;
+}
+
+.contacts {
+    display: flex;
+    margin-top: 60px;
+} 
+
+.contacts h2 {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+
+.contact__rest {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+}
+
+.contact__office {
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    margin-left: 42px;
+    
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.contact__rest-item {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.contact__office-item {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.contact__office-item span {
+    margin-left: 30px;
+
+}
+
+.contact__rest-item span {
+    margin-left: 30px;
+
+}
+
+.contact-details input {
+    width: 540px;
+    height: 35px;
+    border: none;
+    border-bottom: 0.5px solid #D0D0D0;
+    font-size: 14px;
+}
+
+.contact-details textarea{
+    width: 540px;
+    height: 196px;
+    border: 0.5px solid #D0D0D0;
+    color: #616161;
+    margin-top: 35px;
+}
+
+.contact-details button{
+    color: #ffffff;
+    background: #D1A954;
+    border: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 35px;
+    width: 182px;
+    height: 45px;
+}
